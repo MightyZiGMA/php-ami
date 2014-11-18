@@ -203,7 +203,7 @@
             *      - (string) errstr: String containing a (human-readable) description of the error.
             *
             */
-            printf("[AsteriskAMI] ERROR: %s\n", $errstr);
+            printf("[AMI] ERROR: %s\n", $errstr);
             
             return true;
         }
